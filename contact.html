@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>Landing</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="shortcut icon" href="img\ico.png" type="image/png">
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+	<script src="js/openblock.js"></script>
+	<script src="js/ajax.js"></script>
+</head>
+
+<body>
+	<header>
+		<div class="container">
+			<nav class="menu">
+				<ul>
+					<a href="index.html">
+						<li>Home</li>
+					</a>
+					<a href="about us.html">
+						<li>About us</li>
+					</a>
+					<a href="contact.html" id="active">
+						<li>Contact</li>
+					</a>
+				</ul>
+			</nav>
+		</div>
+	</header>
+
+	<section class="contact" id="contact">
+        <div class="container">
+            <h2>get in touch</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                <br>Quod consectetur nam, impedit consequuntur minus dolore,
+                <br>ipsum pariatur eius voluptas error et delectus.
+                <br>Accusamus adipisci nisi, dolor, error ipsa molestiae corporis?</p>
+            <hr>
+            <div class="mail">
+                <form method="POST" id="mail_letter" action="application.php" name="application">
+                    <input type="text" name="name" placeholder="Name" maxlength="32">
+                    <input type="text" name="email" placeholder="Email" maxlength="50">
+                    <br>
+                    <textarea type="text" name="message" placeholder="Type your message" maxlength="250"> </textarea>
+                    <br>
+                    <button class="applicationButton" type="submit" form="application"> SEND MESSAGE </button>
+                </form>
+            </div>
+            <div class="contact_info">
+                <h4>Contact Info</h4>
+                <p>Jalalabad 24 / A, Ambaarkhana, Sylhet, Bangladesh</p>
+                <p>(+88) 017 617 46373</p>
+                <p>winforsal@gmail.com</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>© Copyright @Macuno 2017, All rights reserved.</p>
+            <a href="#"><img src="img/ftwitter.png" alt=""></a>
+            <a href="#"><img src="img/fin.png" alt=""></a>
+            <a href="https://plus.google.com/u/1/116902537874648188833"><img src="img/fgoogle.png" alt=""></a>
+            <a href="#"><img src="img/ffacebook.png" alt=""></a>
+        </div>
+    </footer>
+</body>
+
+</html>
