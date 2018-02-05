@@ -1,13 +1,4 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<meta charset="UTF-8">
-	<title>Создание формы обратной связи</title>
-	<meta http-equiv="Refresh" content="4; URL=http://index.html/"> 
-</head>
-<body>
-
-	<?php
+<?php
 	//Если форма отправлена
 	if(isset($_POST['submit'])) {
  	//Проверка Поля ИМЯ
@@ -44,6 +35,3 @@
 }
 }
 ?>
-
-</body>
-</html>
